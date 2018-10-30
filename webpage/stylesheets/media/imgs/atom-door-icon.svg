@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="16px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>atom-door-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-36.000000, -219.000000)" fill="#EFEAE1">
+            <g id="atom-door-icon" transform="translate(36.000000, 219.000000)">
+                <polygon id="Path" points="0.155339806 -7.10542736e-15 5.90291262 2.95145631 5.90291262 16 0.155339806 13.0485437"></polygon>
+                <polygon id="Path-2" points="8.85436893 2.95145631 4.97087379 6.05825243 8.85436893 8.85436893 8.85436893 6.99029126 12.8932039 6.99029126 12.8932039 4.97087379 8.93203883 4.97087379"></polygon>
+                <polygon id="Path-3" points="0 0 10.8737864 0 10.8737864 3.88349515 9.94174757 3.88349515 9.94174757 0.932038835 0.776699029 0.932038835 0.776699029 12.1165049 9.94174757 12.1165049 9.94174757 7.9223301 10.8737864 7.9223301 10.8737864 13.0485437 0 13.0485437"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
