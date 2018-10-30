@@ -21,30 +21,37 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 ​
 body {
@@ -52,7 +59,8 @@ body {
   -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh"; }
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
 
 ​
 .small-caps {
@@ -60,28 +68,32 @@ body {
   -ms-font-feature-settings: "c2sc", "smcp";
   -webkit-font-feature-settings: "c2sc", "smcp";
   font-feature-settings: "c2sc", "smcp";
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+}
 
 ​
 .tabular-figures {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  font-feature-settings: "tnum"; }
+  font-feature-settings: "tnum";
+}
 
 ​
 .oldstyle-figures {
   -moz-font-feature-settings: "onum";
   -ms-font-feature-settings: "onum";
   -webkit-font-feature-settings: "onum";
-  font-feature-settings: "onum"; }
+  font-feature-settings: "onum";
+}
 
 ​
 .lining-figures {
   -moz-font-feature-settings: "lnum";
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
-  font-feature-settings: "lnum"; }
+  font-feature-settings: "lnum";
+}
 
 header {
   width: 100vw;
@@ -89,8 +101,22 @@ header {
   padding: 5px 0;
   display: flex;
   justify-content: center;
-  background-color: #584C4F; }
-  header #header-content {
-    width: 860px;
-    height: 100%;
-    background-color: #CCC; }
+  background-color: #584C4F;
+}
+
+header #header-content {
+  width: 860px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header #header-content #header-content-left {
+  width: 400px;
+  height: 100%;
+}
+
+header #header-content #header-content-right {
+  width: 100px;
+  height: 100%;
+}
