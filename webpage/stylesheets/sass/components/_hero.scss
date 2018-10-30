@@ -1,1 +1,11 @@
 // *** HERO PARTIAL
+
+#hero{
+  width: 100vw;
+
+  #hero-content{
+    width: $content-width;
+    height: 25px;
+    background-color: #CCC;
+  }//hero-content
+}
