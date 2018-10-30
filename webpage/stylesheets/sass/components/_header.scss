@@ -1,4 +1,9 @@
+// VARS
+
+$hover-transition-time: .3s;
+$hover-color: #81BF8C;
 // *** HEADER PARTIAL ***
+
 
 header {
   width: 100vw;
@@ -37,11 +42,11 @@ header {
             padding: 8px;
 
             @extend %fake-link;
-
+            transition: $hover-transition-time;
 
             &:hover{
-              color: #81BF8C;
-              transition: .3s;
+              color: $hover-color;
+              transition: $hover-transition-time;
 
 
             }
@@ -50,10 +55,33 @@ header {
       } //header-content-left
 
       #header-content-right {
-        width: 100px;
+
         height: 100%;
+        display: flex;
+        align-items: center;
+        ul{
+          width: 67px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          li{
+           @extend %fake-link;
+           transition: $hover-transition-time;
 
 
-      }
+           &:hover{
+             color: $hover-color;
+             transition: $hover-transition-time;
+           } //hover
+
+           img{
+             position: relative;
+             top: 2px;
+           }
+
+         } //li
+        } //ul
+      }// header-content-right
     }//header-content
 }//header
