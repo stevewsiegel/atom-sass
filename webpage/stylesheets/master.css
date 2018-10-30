@@ -82,3 +82,9 @@ body {
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum"; }
+
+header {
+  width: 100vw;
+  height: 33px;
+  padding: 5px 0;
+  background-color: #584C4F; }
