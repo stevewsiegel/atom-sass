@@ -6,8 +6,21 @@
 
   #hero-content{
     width: $content-width;
+
     #hero-content-top{
       width: 100%;
+
+      #hero-content-top-ani{
+         width: 582px;
+         height: 20px;
+         background-color: darken($body-color, 3%);
+      }
+
+      #hero-content-top-ul{
+        width: 228px;
+        margin-left: 50px;
+
+      }
     }//hero-content-top
   }//hero-content
 }//HERO

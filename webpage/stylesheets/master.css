@@ -176,6 +176,17 @@ header #header-content #header-content-right ul li img {
   width: 100%;
 }
 
+#hero #hero-content #hero-content-top #hero-content-top-ani {
+  width: 582px;
+  height: 20px;
+  background-color: #2b2a2b;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul {
+  width: 228px;
+  margin-left: 50px;
+}
+
 body {
   height: 100vh;
   width: 100vw;
