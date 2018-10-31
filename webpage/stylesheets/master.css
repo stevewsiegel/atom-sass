@@ -163,6 +163,9 @@ header #header-content #header-content-right ul li img {
 
 #hero {
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #hero #hero-content {
