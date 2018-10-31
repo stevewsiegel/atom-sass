@@ -1,3 +1,8 @@
+// LOCAL VARIABLES
+
+$border-style: 1px solid #4E4B4D;
+
+
 // *** HERO PARTIAL
 
 #hero{
@@ -9,10 +14,11 @@
 
     #hero-content-top{
       width: 100%;
+      @include basic-flex(space-between, center);
 
       #hero-content-top-ani{
          width: 582px;
-         height: 20px;
+         height: 500px;
          background-color: darken($body-color, 3%);
       }
 
@@ -20,7 +26,25 @@
         width: 228px;
         margin-left: 50px;
 
-      }
+        ul{
+          height: 350px;
+          width: 228px;
+          border: $border-style;
+          border-radius: 20px;
+
+          li{
+            height: 25%;
+            width: 100%;
+            border-bottom: $border-style;
+
+            &:last-child{
+              border-bottom: none;
+            }
+
+          }
+        }
+
+      }//hero-content-top-ul
     }//hero-content-top
   }//hero-content
 }//HERO
