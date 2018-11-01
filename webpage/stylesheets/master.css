@@ -152,7 +152,7 @@ header #header-content #header-content-right ul li {
 }
 
 header #header-content #header-content-right ul li:hover {
-  color: #81BF8C;
+  color: #EBAB00;
   transition: 0.3s;
 }
 
@@ -166,6 +166,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 #hero #hero-content {
@@ -177,6 +178,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani {
@@ -236,6 +238,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div img {
@@ -282,6 +285,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-bottom ul li {
@@ -294,6 +298,55 @@ header #header-content #header-content-right ul li img {
 }
 
 #hero #hero-content #hero-content-bottom ul li a:hover {
+  color: #EBAB00;
+}
+
+#sub-hero {
+  width: 100vw;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-hero #sub-hero-content {
+  width: 860px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sub-hero #sub-hero-content h1 {
+  font-size: 2.3em;
+  font-weight: 300;
+  letter-spacing: .025em;
+  color: #EFDAB9;
+}
+
+#sub-hero #sub-hero-content h1 span {
+  color: #78B0A0;
+}
+
+#sub-hero #sub-hero-content ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-hero #sub-hero-content ul li {
+  color: #FFD152;
+  margin: 40px 10px 0 10px;
+  padding: 9px 14px;
+  border-radius: 5px;
+  border: 1px solid #4E4B4D;
+  font-size: 1.15em;
+}
+
+#sub-hero #sub-hero-content ul li:hover {
   color: #EBAB00;
 }
 

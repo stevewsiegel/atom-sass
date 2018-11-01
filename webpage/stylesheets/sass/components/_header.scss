@@ -1,7 +1,7 @@
 // VARS
 
 $hover-transition-time: .3s;
-$hover-color: #81BF8C;
+$header-hover-color: #81BF8C;
 // *** HEADER PARTIAL ***
 
 
@@ -46,7 +46,7 @@ header {
             transition: $hover-transition-time;
 
             &:hover{
-              color: $hover-color;
+              color: $header-hover-color;
               transition: $hover-transition-time;
 
 
