@@ -1,7 +1,7 @@
 // LOCAL VARIABLES
 
 $border-style: 1px solid #4E4B4D;
-
+$hover-color: #EBAB00;
 
 // *** HERO PARTIAL
 
@@ -50,8 +50,46 @@ $border-style: 1px solid #4E4B4D;
             span{
               font-size: .9em;
               color: #EED9B788;
-              
-            }
+
+              a{
+                &:hover{
+                  color: $hover-color;
+                }
+              }//a
+            }//span
+            a{
+              height: 60%;
+              width: 80%;
+              div{
+                height: 100%;
+                width: 100%;
+                background-color: #FED153;
+                border-radius: 5px;
+                @include basic-flex(center, center);
+
+                img{
+                    height: 16px;
+                    width: 14px;
+                    margin: 2px 10px 0 0;
+
+
+                }
+
+                p{
+                  color: $body-color;
+                  font-weight: 500;
+                  font-size: 1.1em;
+                  letter-spacing: .03em;
+                }
+
+                &:hover{
+                  background-color: $hover-color;
+                }
+              }//div
+            }//a
+
+
+
 
             &:last-child{
               border-bottom: none;
