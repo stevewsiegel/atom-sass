@@ -161,6 +161,142 @@ header #header-content #header-content-right ul li img {
   top: 2px;
 }
 
+#hero {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#hero #hero-content {
+  width: 860px;
+}
+
+#hero #hero-content #hero-content-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani {
+  width: 582px;
+  height: 500px;
+  background-color: #2b2a2b;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul {
+  width: 228px;
+  margin-left: 50px;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul {
+  height: 350px;
+  width: 228px;
+  border: 1px solid #4E4B4D;
+  border-radius: 20px;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li {
+  height: 25%;
+  width: 100%;
+  border-bottom: 1px solid #4E4B4D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li h1 {
+  font-size: 1.44em;
+  font-weight: 500;
+  color: #EED9B7;
+  margin-bottom: .4em;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li span {
+  font-size: .9em;
+  color: #EED9B788;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li span a:hover {
+  color: #EBAB00;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a {
+  height: 60%;
+  width: 80%;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div {
+  height: 100%;
+  width: 100%;
+  background-color: #FED153;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div img {
+  height: 16px;
+  width: 14px;
+  margin: 2px 10px 0 0;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div p {
+  color: #333233;
+  font-weight: 500;
+  font-size: 1.1em;
+  letter-spacing: .03em;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div:hover {
+  background-color: #EBAB00;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
+  border-bottom: none;
+}
+
+#hero #hero-content #hero-content-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hero #hero-content #hero-content-bottom p {
+  color: #766E63AA;
+  font-size: .8em;
+}
+
+#hero #hero-content #hero-content-bottom p a {
+  color: #766E63;
+}
+
+#hero #hero-content #hero-content-bottom ul {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero #hero-content #hero-content-bottom ul li {
+  color: #8D8273;
+  font-size: .9em;
+}
+
+#hero #hero-content #hero-content-bottom ul li:first-child {
+  margin-right: 32px;
+}
+
+#hero #hero-content #hero-content-bottom ul li a:hover {
+  color: #EBAB00;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -168,4 +304,13 @@ body {
   font-size: 100%;
   color: #EFEAE1;
   background-color: #333233;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
 }
