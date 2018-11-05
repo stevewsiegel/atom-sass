@@ -316,6 +316,32 @@ footer {
               footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
                 color: #EBAB00; }
 
+#sub-footer {
+  height: 55px;
+  width: 100vw;
+  background-color: #EFEAE1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  #sub-footer #sub-footer-content {
+    height: 100%;
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; }
+    #sub-footer #sub-footer-content #sub-footer-content-left ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #sub-footer #sub-footer-content #sub-footer-content-left ul li a {
+        color: #574C4F;
+        padding-right: 20px; }
+    #sub-footer #sub-footer-content #sub-footer-content-right img {
+      padding-top: 3px; }
+
 body {
   height: 100vh;
   width: 100vw;
