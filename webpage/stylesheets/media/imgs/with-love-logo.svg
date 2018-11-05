@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="17px" viewBox="0 0 154 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>with love logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribbble-1X" transform="translate(-352.000000, -302.000000)" fill="#574D4F">
+            <g id="with-love-logo" transform="translate(352.000000, 296.000000)">
+                <polygon id="Path" points="5.86813294 7.36858226 0.868132942 13.3685823 5.86813294 19.3685823 7.86813294 17.3685823 4.36813294 13.3685823 7.86813294 9.36858226"></polygon>
+                <polygon id="Path-Copy" transform="translate(13.891805, 13.368582) scale(-1, 1) translate(-13.891805, -13.368582) " points="15.3918047 7.36858226 10.3918047 13.3685823 15.3918047 19.3685823 17.3918047 17.3685823 13.8918047 13.3685823 17.3918047 9.36858226"></polygon>
+                <text id="with" font-family="HelveticaNeue, Helvetica Neue" font-size="15" font-weight="normal" letter-spacing="0.25">
+                    <tspan x="22.5895518" y="18.3883145">wit</tspan>
+                    <tspan x="42.7645518" y="18.3883145">h</tspan>
+                </text>
+                <path d="M64,20 C61.8333333,18.5 60.1666667,17 59,15.5 C57.8333333,14 57.1666667,12.5 57,11 C56.7416667,9 57.4083333,7.66666667 59,7 C60.5916667,6.33333333 62.2583333,7 64,9 C66,7 67.6666667,6.33333333 69,7 C70.3333333,7.66666667 71,9 71,11 C70.8333333,12.5 70.1666667,14 69,15.5 C67.8333333,17 66.1666667,18.5 64,20 Z" id="Path-2" stroke="#574D4F"></path>
+                <text id="by" font-family="HelveticaNeue, Helvetica Neue" font-size="15" font-weight="normal" letter-spacing="0.25">
+                    <tspan x="76.0077471" y="18.3883145">by</tspan>
+                </text>
+                <text id="GitHub" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="19" font-weight="bold" letter-spacing="-1.08000004">
+                    <tspan x="96.695919" y="19.4223145">GitHu</tspan>
+                    <tspan x="142.652919" y="19.4223145">b</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

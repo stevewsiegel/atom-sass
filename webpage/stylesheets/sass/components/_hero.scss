@@ -1,0 +1,136 @@
+
+
+
+// *** HERO PARTIAL
+
+#hero{
+  width: 100vw;
+  @include basic-flex();
+
+  #hero-content{
+    width: $content-width;
+
+    #hero-content-top{
+      width: 100%;
+      @include basic-flex(space-between, center);
+
+      #hero-content-top-ani{
+         width: 582px;
+         height: 500px;
+         background-color: darken($body-color, 3%);
+      }
+
+      #hero-content-top-ul{
+        width: 228px;
+        margin-left: 50px;
+
+        ul{
+          height: 350px;
+          width: 228px;
+          border: $border-style;
+
+          border-radius: 20px;
+
+          li{
+            height: 25%;
+            width: 100%;
+            border-bottom: $border-style;
+            @include basic-flex(center, center, column);
+
+
+            h1{
+              font-size: 1.44em;
+              font-weight: 500;
+              color: #EED9B7;
+              margin-bottom: .4em;
+            }
+
+            span{
+              font-size: .9em;
+              color: #EED9B788;
+
+              a{
+                &:hover{
+                  color: $hover-color;
+                }
+              }//a
+            }//span
+            a{
+              height: 60%;
+              width: 80%;
+              div{
+                height: 100%;
+                width: 100%;
+                background-color: #FED153;
+                border-radius: 5px;
+                @include basic-flex(center, center);
+
+                img{
+                    height: 16px;
+                    width: 14px;
+                    margin: 2px 10px 0 0;
+
+
+                }
+
+                p{
+                  color: $body-color;
+                  font-weight: 500;
+                  font-size: 1.1em;
+                  letter-spacing: .03em;
+                }
+
+                &:hover{
+                  background-color: $hover-color;
+                }
+              }//div
+            }//a
+
+            &:last-child{
+              border-bottom: none;
+            }
+
+          }
+        }
+
+      }//hero-content-top-ul
+
+
+    }//hero-content-top
+
+    #hero-content-bottom{
+      width: 100%;
+      @include basic-flex(center, center, column);
+
+      p{
+        color: #766E63AA;
+        font-size: .8em;
+
+        a{
+          color: #766E63;
+        }// a
+      }// p
+
+      ul{
+        width: 100%;
+        margin-top: 25px;
+        @include basic-flex(center, center);
+
+        li{
+          color: #8D8273;
+          font-size: .9em;
+
+          &:first-child{
+            margin-right: 32px;
+          }
+
+          a{
+            &:hover{
+              color: $hover-color;
+            }
+          }//a
+        }//li
+      }//ul
+    }//hero-content-bottom
+  }//hero-content
+}//HERO

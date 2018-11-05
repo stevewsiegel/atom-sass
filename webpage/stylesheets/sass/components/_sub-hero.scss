@@ -1,0 +1,42 @@
+// ***SUB HERO PARTIAL***
+
+#sub-hero{
+  width: 100vw;
+  margin-top: 130px;
+  @include basic-flex(center, center);
+
+  #sub-hero-content{
+    width: $content-width;
+    @include basic-flex(center, center, column);
+
+    h1{
+      font-size: 2.3em;
+      font-weight: 300;
+      letter-spacing: .025em;
+      color: #EFDAB9;
+
+      span{
+        color: #78B0A0;
+      }
+    }//h1
+
+    ul{
+      width: 100%;
+      @include basic-flex(center, center);
+
+      li{
+        color: #FFD152;
+        margin: 40px 10px 0 10px;
+        padding: 9px 14px;
+        border-radius: 5px;
+        border: 1px solid #4E4B4D;
+        font-size: 1.15em;
+
+        &:hover {
+          color: $hover-color;
+        }
+      }
+
+    }//ul
+  }//sub-hero-content
+}//sub-hero
