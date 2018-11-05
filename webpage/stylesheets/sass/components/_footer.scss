@@ -1,0 +1,24 @@
+// ***footer partial***
+footer{
+  width: 100vw;
+  padding: 205px 0px;
+  border-top: 1px solid #1a191a;
+
+  background: url('media/imgs/index-rocket-ba65a98e0d695928577875312d3ba40c.svg') no-repeat #2C2A2B;
+  background-position: calc(50% + 300px) 60px;
+  @include basic-flex(center, center);
+
+  #footer-content{
+  width: $content-width;
+  @include basic-flex(center, center);
+
+
+
+  #footer-content-left{
+
+  }
+  #footer-content-right{
+
+  }
+  }
+}
