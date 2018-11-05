@@ -11,7 +11,7 @@
 @import "components/header";
 @import "components/hero";
 @import "components/sub-hero";
-
+@import "components/footer";
 // --- MASTER CONTROLS ---
 
 body{
@@ -32,4 +32,10 @@ a{
   &:hover{
     text-decoration: none;
   }
+}
+h2{
+  font-size: 2em;
+  font-weight: 200;
+  color: #EFDAB9;
+  letter-spacing: 0.05em;
 }

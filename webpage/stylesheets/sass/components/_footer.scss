@@ -1,0 +1,54 @@
+// *** FOOTER PARTIAL ***
+footer{
+  width: 100vw;
+  padding: 205px 0px;
+  border-top: 1px solid #1A191A;
+  background: url("media/imgs/rocket.svg") no-repeat #2C2A2B;
+  background-position: calc(50% + 380px) 60px;
+  @include basic-flex(center, center);
+  #footer-content{
+    width: $content-width;
+    @include basic-flex(center, center);
+    #footer-content-left{
+      width: 50%;
+      height: 295px;
+      padding-right: 75px;
+      box-sizing: border-box;
+      @include basic-flex(space-around, flex-start, column);
+      div{
+        width: fit-content;
+        color: $body-color;
+        font-weight: 500;
+        padding: 8px 16px;
+        border-radius: $button-border-radius;
+        background-color: $button-color;
+        &:hover{
+          background-color: $hover-color;
+        }
+      } // div
+    } // footer-content-left
+    #footer-content-right{
+      width: 50%;
+      padding-left: 75px;
+      box-sizing: border-box;
+      height: 295px;
+      @include basic-flex(space-around, flex-start, column);
+      #footer-content-right-uls{
+        @include basic-flex(center, center);
+        ul{
+          color: $atom-tan;
+          line-height: 1.7;
+          li{
+            padding-right: 26px;
+            a{
+              color: $button-color;
+              &:hover{
+                color: $hover-color;
+              }
+            } // a
+          } // li
+        } // ul
+      } //footer-content-right-uls
+    } // footer-content-right
+  } // footer-content
+} //footer

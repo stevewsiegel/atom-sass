@@ -121,7 +121,7 @@ header {
         header #header-content #header-content-right ul li {
           transition: 0.3s; }
           header #header-content #header-content-right ul li:hover {
-            color: #EBAB00;
+            color: #EBAB00c;
             transition: 0.3s; }
           header #header-content #header-content-right ul li img {
             position: relative;
@@ -170,7 +170,7 @@ header {
               font-size: .9em;
               color: #EED9B788; }
               #hero #hero-content #hero-content-top #hero-content-top-ul ul li span a:hover {
-                color: #EBAB00; }
+                color: #EBAB00c; }
             #hero #hero-content #hero-content-top #hero-content-top-ul ul li a {
               height: 60%;
               width: 80%; }
@@ -193,7 +193,7 @@ header {
                   font-size: 1.1em;
                   letter-spacing: .03em; }
                 #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div:hover {
-                  background-color: #EBAB00; }
+                  background-color: #EBAB00c; }
             #hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
               border-bottom: none; }
     #hero #hero-content #hero-content-bottom {
@@ -220,7 +220,7 @@ header {
           #hero #hero-content #hero-content-bottom ul li:first-child {
             margin-right: 32px; }
           #hero #hero-content #hero-content-bottom ul li a:hover {
-            color: #EBAB00; }
+            color: #EBAB00c; }
 
 #sub-hero {
   width: 100vw;
@@ -256,14 +256,14 @@ header {
         border: 1px solid #4E4B4D;
         font-size: 1.15em; }
         #sub-hero #sub-hero-content ul li:hover {
-          color: #EBAB00; }
+          color: #EBAB00c; }
 
 footer {
   width: 100vw;
   padding: 205px 0px;
-  border-top: 1px solid #1A191A;
-  background: url("media/imgs/rocket.svg") no-repeat #2C2A2B;
-  background-position: calc(50% + 380px) 60px;
+  border-top: 1px solid #1a191a;
+  background: url("media/imgs/index-rocket-ba65a98e0d695928577875312d3ba40c.svg") no-repeat #2C2A2B;
+  background-position: calc(50% + 300px) 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,47 +274,6 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: row; }
-    footer #footer-content #footer-content-left {
-      width: 50%;
-      height: 295px;
-      padding-right: 75px;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      flex-direction: column; }
-      footer #footer-content #footer-content-left div {
-        width: fit-content;
-        color: #333233;
-        font-weight: 500;
-        padding: 8px 16px;
-        border-radius: 5px;
-        background-color: #FED153; }
-        footer #footer-content #footer-content-left div:hover {
-          background-color: #EBAB00; }
-    footer #footer-content #footer-content-right {
-      width: 50%;
-      padding-left: 75px;
-      box-sizing: border-box;
-      height: 295px;
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      flex-direction: column; }
-      footer #footer-content #footer-content-right #footer-content-right-uls {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row; }
-        footer #footer-content #footer-content-right #footer-content-right-uls ul {
-          color: #EFDAB9;
-          line-height: 1.7; }
-          footer #footer-content #footer-content-right #footer-content-right-uls ul li {
-            padding-right: 26px; }
-            footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
-              color: #FED153; }
-              footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
-                color: #EBAB00; }
 
 body {
   height: 100vh;
