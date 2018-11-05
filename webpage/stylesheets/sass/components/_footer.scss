@@ -15,10 +15,29 @@ footer{
 
 
   #footer-content-left{
+    width: 50%;
+    height: 295px;
+    padding-right: 75px;
+    box-sizing: border-box;
+    @include basic-flex(space-around, flex-start, column);
+
+    div{
+    width: fit-content;
+    color: $body-color;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: $button-border-radius;
+    background-color: $button-color;
+
+    &:hover{
+      background-color: $hover-color;
+    }
+  }
+}
+   #footer-content-right{
+     width: 50%;
+     height: 295px;
 
   }
-  #footer-content-right{
-
-  }
-  }
+}
 }
