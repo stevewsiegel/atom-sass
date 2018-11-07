@@ -187,7 +187,7 @@ header {
                   height: 16px;
                   width: 14px;
                   margin: 2px 10px 0 0; }
-                #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div p {
+                #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div span {
                   color: #333233;
                   font-weight: 500;
                   font-size: 1.1em;
@@ -257,6 +257,117 @@ header {
         font-size: 1.15em; }
         #sub-hero #sub-hero-content ul li:hover {
           color: #EBAB00; }
+
+#sub-features {
+  width: 100vw;
+  padding: 210px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  #sub-features a {
+    color: #FED153; }
+    #sub-features a:hover {
+      color: #EBAB00; }
+  #sub-features #sub-features-content {
+    width: 860px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #sub-features #sub-features-content #sub-features-expectations {
+      width: 100%; }
+      #sub-features #sub-features-content #sub-features-expectations h2 {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: left; }
+      #sub-features #sub-features-content #sub-features-expectations #expectations-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+        grid-gap: 100px 5%; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(1) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf1.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(2) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf2.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(3) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf3.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(4) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf4.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(5) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf5.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(6) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf6.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+    #sub-features #sub-features-content #sub-features-customize {
+      width: 100%; }
+      #sub-features #sub-features-content #sub-features-customize h2 {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: left; }
+      #sub-features #sub-features-content #sub-features-customize #customize-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+        grid-gap: 100px 5%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(1) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf7.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(2) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf8.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(3) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf9.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(4) {
+          width: 100%;
+          height: auto;
+          padding-left: 60px;
+          background: url("media/imgs/sf10.png") no-repeat;
+          background-position: left top;
+          background-size: 8%; }
 
 footer {
   width: 100vw;
@@ -356,8 +467,21 @@ a {
   a:hover {
     text-decoration: none; }
 
+p {
+  color: #EFDAB9;
+  line-height: 1.45;
+  margin: 16px 0px;
+  width: 350px;
+  letter-spacing: 0.02em; }
+
 h2 {
   font-size: 2em;
   font-weight: 200;
   color: #EFDAB9;
   letter-spacing: 0.05em; }
+
+h4 {
+  font-size: 1.2em;
+  color: #EFDAB9;
+  font-weight: 500;
+  letter-spacing: 0.02em; }
