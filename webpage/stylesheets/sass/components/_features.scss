@@ -1,1 +1,44 @@
 //***features PARTIAL
+
+#feature-1{
+  width: 100vw;
+  padding: 100px 0px;
+  margin: 50px 0px;
+  background: url('media/imgs/teletype-bckr.svg') no-repeat;
+  background-size: contain;;
+  background-position: calc(50% + 1000px) 0%;
+  @include basic-flex(center, center);
+
+    #feature-1-img{
+      width: 50%;
+
+      img{
+        position: relative;
+        left: -100px;
+        width: 780px;
+        height: 488px;
+        border-radius: $button-border-radius;
+        box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+        filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3.5);
+        transition: filter 2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+        &:hover{
+          filter: none;
+        }
+      }//img
+    }//feature-1-img
+
+    #feature-1-info{
+      height: 400px;
+      padding-left: 35px;
+      width: 50%;
+      @include basic-flex(space-between, flex-start, column);
+      @extend %text-link;
+
+      div{
+        @extend %button;
+      }
+    }//feature 1 info
+  }// feature-1

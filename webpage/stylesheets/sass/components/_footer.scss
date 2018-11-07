@@ -16,15 +16,7 @@ footer{
       box-sizing: border-box;
       @include basic-flex(space-around, flex-start, column);
       div{
-        width: fit-content;
-        color: $body-color;
-        font-weight: 500;
-        padding: 8px 16px;
-        border-radius: $button-border-radius;
-        background-color: $button-color;
-        &:hover{
-          background-color: $hover-color;
-        }
+      @extend %button;
       } // div
     } // footer-content-left
     #footer-content-right{

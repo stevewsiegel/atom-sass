@@ -82,6 +82,21 @@ header #header-content #header-content-left ul li, header #header-content #heade
   cursor: pointer;
   user-select: none; }
 
+#feature-1 #feature-1-info div, footer #footer-content #footer-content-left div {
+  width: fit-content;
+  color: #333233;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 5px;
+  background-color: #FED153; }
+  #feature-1 #feature-1-info div:hover, footer #footer-content #footer-content-left div:hover {
+    background-color: #EBAB00; }
+
+#feature-1 #feature-1-info a, #sub-features a {
+  color: #FED153; }
+  #feature-1 #feature-1-info a:hover, #sub-features a:hover {
+    color: #EBAB00; }
+
 header {
   width: 100vw;
   height: 33px;
@@ -258,6 +273,41 @@ header {
         #sub-hero #sub-hero-content ul li:hover {
           color: #EBAB00; }
 
+#feature-1 {
+  width: 100vw;
+  padding: 100px 0px;
+  margin: 50px 0px;
+  background: url("media/imgs/teletype-bckr.svg") no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 1000px) 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  #feature-1 #feature-1-img {
+    width: 50%; }
+    #feature-1 #feature-1-img img {
+      position: relative;
+      left: -100px;
+      width: 780px;
+      height: 488px;
+      border-radius: 5px;
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+      filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3.5);
+      transition: filter 2s;
+      transition-timing-function: ease;
+      transition-delay: 0s; }
+      #feature-1 #feature-1-img img:hover {
+        filter: none; }
+  #feature-1 #feature-1-info {
+    height: 400px;
+    padding-left: 35px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column; }
+
 #sub-features {
   width: 100vw;
   padding: 210px 0px;
@@ -265,10 +315,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row; }
-  #sub-features a {
-    color: #FED153; }
-    #sub-features a:hover {
-      color: #EBAB00; }
   #sub-features #sub-features-content {
     width: 860px;
     display: flex;
@@ -394,15 +440,6 @@ footer {
       justify-content: space-around;
       align-items: flex-start;
       flex-direction: column; }
-      footer #footer-content #footer-content-left div {
-        width: fit-content;
-        color: #333233;
-        font-weight: 500;
-        padding: 8px 16px;
-        border-radius: 5px;
-        background-color: #FED153; }
-        footer #footer-content #footer-content-left div:hover {
-          background-color: #EBAB00; }
     footer #footer-content #footer-content-right {
       width: 50%;
       padding-left: 75px;
