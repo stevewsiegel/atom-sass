@@ -1,9 +1,16 @@
-// Sub features
+//local variables//
+
+$row-gap: 100px;
+$column-gap: 5%;
+
+// *** SUB FEATURES PARTIAL ***
 
 #sub-features{
   width: 100vw;
-  margin-top: 100px;
+  padding: 210px 0px;
   @include basic-flex(center, center);
+
+  @extend %text-link;
 
   #sub-features-content{
     width: $content-width;
@@ -14,16 +21,81 @@
 
       h2{
         width: 100%;
+        margin-bottom: 50px;
         text-align: left;
+      } //h2
 
-      }
-
-      #expectations-flex{
+      #expectations-grid{
         width: 100%;
-        div{
-          
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+        div:nth-child(1){
+          @include grid-item('sf1.png');
         }
+
+        div:nth-child(2){
+          @include grid-item('sf2.png');
+        }
+
+        div:nth-child(3){
+          @include grid-item('sf3.png');
+        }
+
+        div:nth-child(4){
+          @include grid-item('sf4.png');
+        }
+
+        div:nth-child(5){
+          @include grid-item('sf5.png');
+        }
+
+        div:nth-child(6){
+          @include grid-item('sf6.png');
+        }
+      } //expectations-grid
+    } //sub-features-expectations
+
+    #sub-features-customize{
+      width: 100%;
+
+      h2{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: left;
       }
-    }// }sub features-expextations
-  } //sub features $content-width
-} //sub features-expextations
+
+      #customize-grid{
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+        div:nth-child(1){
+          @include grid-item('sf7.png');
+
+
+        }
+
+        div:nth-child(2){
+          @include grid-item('sf8.png');
+
+
+
+      }
+      div:nth-child(3){
+        @include grid-item('sf9.png');
+      }
+
+
+        div:nth-child(4){
+          @include grid-item('sf10.png');
+        }
+
+
+      }
+    } //sub-features-customize
+  } //sub-features-content
+} //sub-features

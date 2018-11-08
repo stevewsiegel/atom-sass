@@ -1,0 +1,105 @@
+
+
+// *** FEATURES PARTIAL ***
+
+#feature-1{
+  background: url('media/imgs/teletype-bckr.svg') no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 1000px) 0%;
+
+  #feature-1-img{
+    width: 50%;
+
+    img{
+      filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3.5);
+
+      &:hover{
+        filter: none;
+      }
+    } // img
+  } // feature-1-img
+
+  #feature-1-info{
+    padding-left: 35px;
+  } // feature-1-info
+} // feature-1
+
+#feature-2{
+  background: url('media/imgs/atomide-bckr.svg') no-repeat;
+  background-size: auto 70%;
+  background-position: calc(-50% + 550px) center;
+
+  #feature-2-img{
+    width: 50%;
+    
+
+    img{
+      position: relative;
+      left: 45px;
+      filter: brightness(0.7) contrast(0.8) sepia(1) hue-rotate(160deg) saturate(2.5);
+
+      &:hover{
+        filter: none;
+      }
+    } // img
+  } // feature-2-img
+
+  #feature-2-info{
+    padding-left: 390px;
+  } // feature-2-info
+} // feature-2
+
+#feature-3{
+  background: url('media/imgs/github-bckr.svg') no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 550px) 0%;
+
+  #feature-3-img{
+    width: 50%;
+
+    img{
+      filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(115deg) saturate(1);
+
+      &:hover{
+        filter: none;
+      }
+    } // img
+  } // feature-3-img
+
+  #feature-3-info{
+    padding-left: 35px;
+  } // feature-3-info
+} // feature-3
+
+// *** FEATURES CLASSES ***
+
+.feature-container{
+  width: 100vw;
+  padding: 100px 0px;
+  margin: 50px 0px;
+  @include basic-flex(center, center);
+}
+
+.feature-img{
+  position: relative;
+  left:  -100px;
+  width:  780px;
+  height: 488px;
+  border-radius: $button-border-radius;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+
+  transition: filter 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.feature-info{
+  height: 400px;
+  width: 50%;
+  @include basic-flex(space-between, flex-start, column);
+  @extend %text-link;
+
+  div{
+    @extend %button;
+  } //div
+} // feature-info

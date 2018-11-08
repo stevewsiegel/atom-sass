@@ -11,13 +11,17 @@
 @import "components/header";
 @import "components/hero";
 @import "components/sub-hero";
+@import "components/features";
+@import "components/sub-features";
 @import "components/footer";
 @import "components/sub-footer";
+
 // --- MASTER CONTROLS ---
 
 body{
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
@@ -34,9 +38,25 @@ a{
     text-decoration: none;
   }
 }
+
+p{
+  color: $atom-tan;
+  line-height: 1.45;
+  margin: 16px 0px;
+  width: 350px;
+  letter-spacing: 0.02em;
+
+}
+
 h2{
   font-size: 2em;
   font-weight: 200;
   color: #EFDAB9;
   letter-spacing: 0.05em;
+}
+h4{
+  font-size: 1.2em;
+  color: $atom-tan;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
