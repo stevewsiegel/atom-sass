@@ -10,13 +10,7 @@ $column-gap: 5%;
   padding: 210px 0px;
   @include basic-flex(center, center);
 
-  a{
-    color: $button-color;
-    &:hover{
-      color: $hover-color;
-    }
-  }
-
+  @extend %text-link;
 
   #sub-features-content{
     width: $content-width;
@@ -101,7 +95,7 @@ $column-gap: 5%;
         }
 
 
-      } 
+      }
     } //sub-features-customize
   } //sub-features-content
 } //sub-features

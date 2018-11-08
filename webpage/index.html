@@ -1,183 +1,230 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Atom</title>
-    <link rel="icon" href="favicon.ico" type="image/ico">
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="stylesheets/master.css" type="text/css">
-  </head>
-  <body>
-  <!-- NAV BAR -->
-  <header>
-    <div id="header-content">
-      <div id="header-content-left">
-        <ul id="ul-nav-left">
-          <li>Packages</li>
-          <li>Themes</li>
-          <li>Documentation</li>
-          <li>Blog</li>
-          <li>Discuss</li>
-        </ul>
-      </div>
-      <div id="header-content-right">
-        <ul>
-          <li><img src="stylesheets/media/imgs/atom-door-icon.svg" alt="Sign in icon"></li>
-          <li>Sign in</li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <!-- HERO -->
-  <div id="hero">
-    <div id="hero-content">
-      <div id="hero-content-top">
-        <div id="hero-content-top-ani">
-        </div>
-        <div id="hero-content-top-ul">
-          <ul>
-            <li><img src="stylesheets/media/imgs/atom-logo-text.svg" alt="Atom Logo"></li>
-            <li>
-              <h1>1.32.1</h1>
-              <span><a href="#">Release notes</a></span>
-            </li>
-            <li>
-              <h1>macOS</h1>
-              <span>For macOS 10.9 or later</span>
-            </li>
-            <li>
-              <!-- DOWNLOAD BUTTON -->
-              <a href="#"><div>
-                <img src="stylesheets/media/imgs/download-icon.svg" alt="Download Button">
-                <span>Download</span>
-              </div></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div id="hero-content-bottom">
-        <p>By downloading, you agree to the <a href="#">Terms and Conditions</a>.</p>
-        <ul>
-          <li><a href="#">Other platforms</a></li>
-          <li><a href="#">Try Atom Beta</a></li>
-        </ul>
-      </div>
-    </div>
+<head>
+ <meta charset="utf-8">
+ <title>Atom</title>
+ <link rel="icon" href="favicon.ico" type="image/ico">
+ <!-- STYLESHEETS -->
+ <link rel="stylesheet" href="stylesheets/master.css" type="text/css">
+</head>
+<body>
+<!-- NAV BAR -->
+<header>
+ <div id="header-content">
+  <div id="header-content-left">
+   <ul id="ul-nav-left">
+    <li>Packages</li>
+    <li>Themes</li>
+    <li>Documentation</li>
+    <li>Blog</li>
+    <li>Discuss</li>
+   </ul>
   </div>
-  <!-- SUB HERO -->
-  <div id="sub-hero">
-    <div id="sub-hero-content">
-      <h1>A hackable <span>text editor</span> for the 21st Century</h1>
-      <ul>
-        <li><a href="#">Real-time collaboration</a></li>
-        <li><a href="#">IDE features</a></li>
-        <li><a href="#">Git and GitHub integration</a></li>
-      </ul>
-    </div>
+  <div id="header-content-right">
+   <ul>
+    <li><img src="stylesheets/media/imgs/atom-door-icon.svg" alt="Sign in icon"></li>
+    <li>Sign in</li>
+   </ul>
   </div>
-  <!-- SUB FEATURES -->
-  <div id="sub-features">
-    <div id="sub-features-content">
-      <div id="sub-features-expectations">
-        <h2>Everything you would expect</h2>
-        <div id="expectations-grid">
-          <div>
-            <h4>Cross-platform editing</h4>
-            <p>Atom works across operating systems. Use it on OS X, Windows, or Linux.</p>
-          </div>
-          <div>
-            <h4>Built-in package manager</h4>
-            <p>Search for and install new packages or create your own right from Atom.</p>
-          </div>
-          <div>
-            <h4>Smart autocompletion</h4>
-            <p>Atom helps you write code faster with a smart and flexible autocomplete.</p>
-          </div>
-          <div>
-            <h4>File system browser</h4>
-            <p>Atom helps you write code faster with a smart and flexible autocomplete.</p>
-          </div>
-          <div>
-            <h4>Multiple panes</h4>
-            <p>Split your Atom interface into multiple panes to compare and edit code across files.</p>
-          </div>
-          <div>
-            <h4>Find and replace</h4>
-            <p>Find, preview, and replace text as you type in a file or across all your projects.</p>
-          </div>
-        </div>
-      </div>
-      <div id="sub-features-customize">
-        <h2>Make it your editor</h2>
-        <div id="customize-grid">
-          <div>
-            <h4>Packages</h4>
-            <p>Choose from thousands of <a href="#">open source packages</a> that add new features and functionality to Atom, or build a package from scratch and publish it for everyone else to use.</p>
-          </div>
-          <div>
-            <h4>Themes</h4>
-            <p>Atom comes pre-installed with four UI and eight syntax <a href="#">themes</a> in both dark and light colors. Can't find what you're looking for? Install themes created by the Atom community or create your own.</p>
-          </div>
-          <div>
-            <h4>Customization</h4>
-            <p>It's easy to customize and style Atom. Tweak the look and feel of your UI with CSS/Less, and add major features with HTML and JavaScript.<br><a href="#">See how to set up Atom</a></p>
-          </div>
-          <div>
-            <h4>Under the hood</h4>
-            <p>Atom is a desktop application built with HTML, JavaScript, CSS, and Node.js integration. It runs on <a href="#">Electron</a>, a framework for building cross platform apps using web technologies.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+ </div>
+</header>
+<!-- HERO -->
+<div id="hero">
+ <div id="hero-content">
+  <div id="hero-content-top">
+   <div id="hero-content-top-ani">
+     <img id="octocat" src="stylesheets/media/imgs/ani/octocat.svg" alt="octocat">
+     <div id="hero-circles">
+       <img src="stylesheets/media/imgs/ani/atom-logo.svg" alt="Atom logo">
+       <img src="stylesheets/media/imgs/ani/ring-1.svg" alt="Ring 1">
+       <img src="stylesheets/media/imgs/ani/ring-2.svg" alt="Ring 2">
+       <img src="stylesheets/media/imgs/ani/ring-3.svg" alt="Ring 3">
+       <img src="stylesheets/media/imgs/ani/ring-4.svg" alt="Ring 4">
+       <img src="stylesheets/media/imgs/ani/ring-5.svg" alt="Ring-5">
+       <img src="stylesheets/media/imgs/ani/ring-6.svg" alt="Ring-6">
+       <img src="stylesheets/media/imgs/ani/ring-7.svg" alt="Ring-7">
+       <img src="stylesheets/media/imgs/ani/ring-8.svg" alt="Ring-8">
+       <img src="stylesheets/media/imgs/ani/ring-9.svg" alt="Ring-9">
+       <img src="stylesheets/media/imgs/ani/ring-10.svg" alt="Ring-10">
+       <img src="stylesheets/media/imgs/ani/ring-11.svg" alt="Ring-11">
+     </div>
+   </div>
+   <div id="hero-content-top-ul">
+    <ul>
+     <li><img src="stylesheets/media/imgs/atom-logo-text.svg" alt="Atom Logo"></li>
+     <li>
+      <h1>1.32.1</h1>
+      <span><a href="#">Release notes</a></span>
+     </li>
+     <li>
+      <h1>macOS</h1>
+      <span>For macOS 10.9 or later</span>
+     </li>
+     <li>
+      <!-- DOWNLOAD BUTTON -->
+      <a href="#"><div>
+       <img src="stylesheets/media/imgs/download-icon.svg" alt="Download Button">
+       <span>Download</span>
+      </div></a>
+     </li>
+    </ul>
+   </div>
   </div>
-  <!-- FOOTER -->
-  <footer>
-    <div id="footer-content">
-      <div id="footer-content-left">
-        <h2>Open source</h2>
-        <p>Atom is open source. Be part of the Atom community or help improve your favorite text editor.</p>
-        <a href="#"><div>Fork on GitHub</div></a>
-      </div>
-      <div id="footer-content-right">
-        <h2>Keep in touch</h2>
-        <div id="footer-content-right-uls">
-          <ul>
-            <li>GitHub</li>
-            <li>Twitter</li>
-            <li>Chat</li>
-            <li>Forum</li>
-            <li>Wear</li>
-            <li>RSS Feed</li>
-          </ul>
-          <ul>
-            <li><a href="#">github.com/atom</a></li>
-            <li><a href="#">@AtomEditor</a></li>
-            <li><a href="#">Slack</a></li>
-            <li><a href="#">Discuss</a></li>
-            <li><a href="#">Atom shirt</a></li>
-            <li><a href="#">Packages &amp; Themes</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- SUB FOOTER -->
-  <div id="sub-footer">
-    <div id="sub-footer-content">
-      <div id="sub-footer-content-left">
-        <ul>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Code of Conduct</a></li>
-          <li><a href="#">Releases</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div id="sub-footer-content-right">
-        <img src="stylesheets/media/imgs/with-love-logo.svg" alt="Coded with love from GitHub">
-      </div>
-    </div>
+  <div id="hero-content-bottom">
+   <p>By downloading, you agree to the <a href="#">Terms and Conditions</a>.</p>
+   <ul>
+    <li><a href="#">Other platforms</a></li>
+    <li><a href="#">Try Atom Beta</a></li>
+   </ul>
   </div>
-  </body>
+ </div>
+</div>
+<!-- SUB HERO -->
+<div id="sub-hero">
+ <div id="sub-hero-content">
+  <h1>A hackable <span>text editor</span> for the 21st Century</h1>
+  <ul>
+   <li><a href="#">Real-time collaboration</a></li>
+   <li><a href="#">IDE features</a></li>
+   <li><a href="#">Git and GitHub integration</a></li>
+  </ul>
+ </div>
+</div>
+<!-- FEATURES -->
+<div id="feature-1" class="feature-container">
+ <div id="feature-1-img">
+  <img class="feature-img" src="stylesheets/media/imgs/f1.png" alt="Feature 1">
+ </div>
+ <div id="feature-1-info" class="feature-info">
+  <h2>Teletype for Atom</h2>
+  <p>Great things happen when developers work together—from teaching and sharing knowledge to building better software. Teletype for Atom makes collaborating on code just as easy as it is to code alone, right from your editor.<br><br>Share your workspace and edit code together in real time. To start collaborating, <a href="#">open Teletype in Atom</a> and install the package.</p>
+  <a href="#"><div>Learn more</div></a>
+ </div>
+</div>
+<div id="feature-2" class="feature-container">
+ <div id="feature-2-info" class="feature-info">
+  <h2>Atom IDE</h2>
+  <p>Atom-IDE is a set of optional packages to bring IDE-like functionality to Atom and improve language integrations.<br><br>Get smarter context-aware auto-completion, code navigation features such as an outline view, go to definition and find all references. You can also hover-to-reveal information, diagnostics (errors and warnings) and document formatting. To get all these IDE features, <a href="#">open Atom IDE UI in Atom</a> and install the package.</p>
+  <a href="#"><div>Learn more</div></a>
+ </div>
+ <div id="feature-2-img">
+  <img class="feature-img" src="stylesheets/media/imgs/f2.png" alt="Feature 2">
+ </div>
+</div>
+<div id="feature-3" class="feature-container">
+ <div id="feature-3-img">
+  <img class="feature-img" src="stylesheets/media/imgs/f3.png" alt="Feature 3">
+ </div>
+ <div id="feature-3-info" class="feature-info">
+  <h2>GitHub for Atom</h2>
+  <p>A text editor is at the core of a developer’s toolbox, but it doesn't usually work alone. Work with Git and GitHub directly from Atom with the GitHub package.<br><br>Create new branches, stage and commit, push and pull, resolve merge conflicts, view pull requests and more—all from within your editor. The GitHub package is already bundled with Atom, so you're ready to go!</p>
+  <a href="#"><div>Learn more</div></a>
+ </div>
+</div>
+<!-- SUB FEATURES -->
+<div id="sub-features">
+ <div id="sub-features-content">
+  <div id="sub-features-expectations">
+   <h2>Everything you would expect</h2>
+   <div id="expectations-grid">
+    <div>
+     <h4>Cross-platform editing</h4>
+     <p>Atom works across operating systems. Use it on OS X, Windows, or Linux.</p>
+    </div>
+    <div>
+     <h4>Built-in package manager</h4>
+     <p>Search for and install new packages or create your own right from Atom.</p>
+    </div>
+    <div>
+     <h4>Smart autocompletion</h4>
+     <p>Atom helps you write code faster with a smart and flexible autocomplete.</p>
+    </div>
+    <div>
+     <h4>File system browser</h4>
+     <p>Atom helps you write code faster with a smart and flexible autocomplete.</p>
+    </div>
+    <div>
+     <h4>Multiple panes</h4>
+     <p>Split your Atom interface into multiple panes to compare and edit code across files.</p>
+    </div>
+    <div>
+     <h4>Find and replace</h4>
+     <p>Find, preview, and replace text as you type in a file or across all your projects.</p>
+    </div>
+   </div>
+  </div>
+  <div id="sub-features-customize">
+   <h2>Make it your editor</h2>
+   <div id="customize-grid">
+    <div>
+     <h4>Packages</h4>
+     <p>Choose from thousands of <a href="#">open source packages</a> that add new features and functionality to Atom, or build a package from scratch and publish it for everyone else to use.</p>
+    </div>
+    <div>
+     <h4>Themes</h4>
+     <p>Atom comes pre-installed with four UI and eight syntax <a href="#">themes</a> in both dark and light colors. Can't find what you're looking for? Install themes created by the Atom community or create your own.</p>
+    </div>
+    <div>
+     <h4>Customization</h4>
+     <p>It's easy to customize and style Atom. Tweak the look and feel of your UI with CSS/Less, and add major features with HTML and JavaScript.<br><br><a href="#">See how to set up Atom</a></p>
+    </div>
+    <div>
+     <h4>Under the hood</h4>
+     <p>Atom is a desktop application built with HTML, JavaScript, CSS, and Node.js integration. It runs on <a href="#">Electron</a>, a framework for building cross platform apps using web technologies.</p>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- FOOTER -->
+<footer>
+ <div id="footer-content">
+  <div id="footer-content-left">
+   <h2>Open source</h2>
+   <p>Atom is open source. Be part of the Atom community or help improve your favorite text editor.</p>
+   <a href="#"><div>Fork on GitHub</div></a>
+  </div>
+  <div id="footer-content-right">
+   <h2>Keep in touch</h2>
+   <div id="footer-content-right-uls">
+    <ul>
+     <li>GitHub</li>
+     <li>Twitter</li>
+     <li>Chat</li>
+     <li>Forum</li>
+     <li>Wear</li>
+     <li>RSS Feed</li>
+    </ul>
+    <ul>
+     <li><a href="#">github.com/atom</a></li>
+     <li><a href="#">@AtomEditor</a></li>
+     <li><a href="#">Slack</a></li>
+     <li><a href="#">Discuss</a></li>
+     <li><a href="#">Atom shirt</a></li>
+     <li><a href="#">Packages &amp; Themes</a></li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</footer>
+<!-- SUB FOOTER -->
+<div id="sub-footer">
+ <div id="sub-footer-content">
+  <div id="sub-footer-content-left">
+   <ul>
+    <li><a href="#">Terms of Use</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Code of Conduct</a></li>
+    <li><a href="#">Releases</a></li>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">Contact</a></li>
+   </ul>
+  </div>
+  <div id="sub-footer-content-right">
+   <img src="stylesheets/media/imgs/with-love-logo.svg" alt="Coded with love from GitHub">
+  </div>
+ </div>
+</div>
+</body>
 </html>
